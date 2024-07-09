@@ -26,7 +26,7 @@ echo '<ul class="navbar-nav ml-auto">';
 if (!$loggedin) {
     echo ' 
       <li class="nav-item">
-        <a class="btn btn-primary mx-2" href="/gernalapp/login.php">Login</a>
+        <a class="btn btn-primary mx-2" href="/gernalapp/index.php">Login</a>
       </li>
       <li class="nav-item">
         <a class="btn btn-success mx-2" href="/gernalapp/signup.php">Signup</a>

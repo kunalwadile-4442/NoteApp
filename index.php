@@ -51,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo '<div class="alert alert-danger" role="alert">' . $showError . '</div>';
     }
     ?>
-    <form action="login.php" method="post">
+    <form action="index.php" method="post">
 
   <h5>Sample Username and Password</h5>
   <p class="my-3">username : <strong>test</strong></p>
