@@ -2,7 +2,7 @@
 $server = "localhost";
 $username = "root";
 $password = "";
-$database = "userphp";
+$database = "gernalapp";
 
 $conn = mysqli_connect($server, $username, $password, $database);
 if (!$conn){
